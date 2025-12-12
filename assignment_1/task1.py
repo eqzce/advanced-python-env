@@ -1,0 +1,6 @@
+name, sname = input("Enter your name and second name: ").split()
+age = int(input("Enter your age: "))
+phone = int(input("Enter your phone: "))
+print(name, sname)
+print(age)
+print(phone)
