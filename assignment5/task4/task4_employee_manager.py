@@ -27,15 +27,10 @@ class Manager(Employee):
         return self.get_salary() + self.bonus
 
 
-def print_employees(employees):
-    for emp in employees:
-        print(f"Role: {emp.get_role()}, Total Salary: {emp.get_total_salary()}")
-
-
 if __name__ == "__main__":
     employees = []
 
-    n = int(input("How many employees? "))
+    n = int(input("How many employees: "))
 
     for i in range(n):
         role = input(f"Enter role for employee {i+1} (employee/manager): ").lower()
@@ -47,5 +42,5 @@ if __name__ == "__main__":
         else:
             employees.append(Employee(salary))
 
-    print("\nEmployees List:")
-    print_employees(employees)
+    for emp in employees:
+        print(f"Role: {emp.get_role()}, Total Salary: {emp.get_total_salary()}")
