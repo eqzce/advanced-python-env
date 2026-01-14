@@ -1,12 +1,12 @@
 [
   {
-    "name": "Alice",
-    "age": 20,
-    "grades": [85, 90, 88]
+    "name": "Oleg",
+    "age": 18,
+    "grades": [60, 50, 80]
   },
   {
-    "name": "Bob",
-    "age": 22,
-    "grades": [70, 75, 80]
+    "name": "Ali",
+    "age": 19,
+    "grades": [80, 95, 90]
   }
 ]
